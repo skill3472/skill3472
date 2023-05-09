@@ -24,8 +24,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: commit
         run: |
-          git config --global user.email bot@github.com
-          git config --global user.name actions
+          git config --global user.email tymszczur@gmail.com
+          git config --global user.name "Maksymilian Tym"
           git add .
           git commit -m "README update Automation" -a
       - name: Push changes
