@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Update README.md"
-      - env:
+        env:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
           git clone https://github.com/skill3472/monkeytype-pbfetcher.git
