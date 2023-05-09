@@ -16,7 +16,7 @@ jobs:
           cd monkeytype-pbfetcher
           rm README.md .gitignore
           touch api_key.txt
-          cat $API_KEY > api_key.txt
+          echo $API_KEY > api_key.txt
           pip3 install -r requirements.txt
           python3 fetcher.py
       - name: pull-request
