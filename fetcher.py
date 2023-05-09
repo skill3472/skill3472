@@ -17,6 +17,7 @@ def get_pb():
     "mode2":"60"
     }
     apekey = f'ApeKey {key}'
+    print('Requesting with ApeKey ' + apekey)
     x = requests.get(endpoint, headers={'Authorization':apekey, 'Accept':'application/json'}, \
                      allow_redirects=True, params=query)
     response = x.json()
