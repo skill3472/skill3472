@@ -1,24 +1,22 @@
 name: README Update
 
-on: 
-  push:
+on:
+  schedule:
+    - cron: "1/5 * * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: "Update readme files"
+        uses: actions/checkout@main
       - name: "Update README.md"
         env:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
-          git clone https://github.com/skill3472/monkeytype-pbfetcher.git
-          cd monkeytype-pbfetcher
-          rm README.md .gitignore
-          touch api_key.txt
-          echo $API_KEY > api_key.txt
           pip3 install -r requirements.txt
-          python3 fetcher.py
+          python3 fetcher.py $API_KEY
       - name: pull-request
         uses: repo-sync/pull-request@v2
         with:
