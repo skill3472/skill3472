@@ -2,7 +2,7 @@
 <!-- PB START -->
 ```
 My current MonkeyType PB: 85.59
-Updated on: 10:22:59 GMT Time
+Updated on: 11:16:50 GMT Time
 ```
 <!-- PB END -->
 I'm an IT person, just overall. I like CTFs, hacking, coding games, making Python apps. Just a lot of stuff.
