@@ -21,7 +21,7 @@ def get_pb():
     x = requests.get(endpoint, headers={'Authorization':apekey, 'Accept':'application/json'}, \
                      allow_redirects=True, params=query)
     response = x.json()
-    pb = response['data'][0]['wpm']
+    pb = [response['data'][0]['wpm'], response['data'][0]['acc']]
     return pb
 
 def changeLine(n, text):
@@ -32,8 +32,9 @@ def changeLine(n, text):
         f.writelines(data)
 
 def updateFile():
+    pb = get_pb()
     now = datetime.datetime.now().strftime(time)
-    text = f'My current MonkeyType PB: {get_pb()}\n'
+    text = f'My current MonkeyType PB is - WPM:{pb[0]} Acc:{pb[1]}\n'
     timestamp = f'Updated on: {now}\n'
     console_timestamp = '[%H:%M:%S]'
     print(f'{datetime.datetime.now().strftime(console_timestamp)} Updated the file!')
