@@ -13,8 +13,8 @@ time = config['time']
 def get_pb():
     endpoint = f'{api}/users/personalBests'
     query = {
-    "mode": "time",
-    "mode2":"60"
+    "mode": "words",
+    "mode2":"50"
     }
     apekey = f'ApeKey {key}'
     print('Requesting with ApeKey ' + apekey)
