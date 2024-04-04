@@ -33,7 +33,7 @@ def changeLine(n, text):
 
 def updateFile():
     pb = get_pb()
-    now = datetime.datetime.now().strftime(time)
+    now = (datetime.datetime.now() + timedelta(hours=2)).strftime(time)
     text = f'My current MonkeyType PB is - WPM:{pb[0]} Acc:{pb[1]}\n'
     timestamp = f'Updated on: {now}\n'
     console_timestamp = '[%H:%M:%S]'
