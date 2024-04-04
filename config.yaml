@@ -1,4 +1,4 @@
-time: "%H:%M:%S GMT Time"
+time: "%H:%M:%S CEST Time"
 out_file: "README.md"
 out_line: 3
 timestamp_line: 4
