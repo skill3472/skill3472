@@ -1,8 +1,8 @@
 ### Hi there 👋
 <!-- PB START -->
 ```
-My current MonkeyType PB is - WPM:94.05 Acc:99.25
-Updated on: 13:15:13 CEST Time
+My current MonkeyType PB is - WPM:94.21 Acc:97.42
+Updated on: 19:16:03 CEST Time
 ```
 <!-- PB END -->
 I'm an IT person, just overall. I like CTFs, hacking, coding games, making Python apps. Just a lot of stuff.
