@@ -2,7 +2,7 @@ name: README Update
 
 on:
   schedule:
-    - cron: "1/30 * * * *"
+    - cron: "0/30 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Fetch files"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
           fetch-depth: 0
