@@ -11,3 +11,7 @@ You can check out my website [here](https://skill3472.github.io/).
 ---
 ### My stack / skills
 [![My Skills](https://skillicons.dev/icons?i=bash,cs,cpp,discord,dotnet,flask,git,github,html,linux,md,obsidian,py,raspberrypi,unity,vscode,windows,wordpress)](https://skillicons.dev)
+
+### Stats
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=skill3472&theme=monokai)](https://github.com/ryo-ma/github-profile-trophy)
