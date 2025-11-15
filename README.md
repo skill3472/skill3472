@@ -2,7 +2,7 @@
 <!-- PB START -->
 ```
 My current MonkeyType PB is - WPM:104.22 Acc:97.66
-Updated on: 07:25:19 CEST Time
+Updated on: 08:35:49 CEST Time
 ```
 <!-- PB END -->
 I'm an IT person, just overall. I like CTFs, hacking, coding games, making Python apps. Just a lot of stuff.
