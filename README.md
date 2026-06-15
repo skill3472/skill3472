@@ -9,7 +9,7 @@ I'm an IT person, just overall. I like CTFs, hacking, coding games, making Pytho
 You can check out my website [here](https://skill3472.github.io/).
 
 ---
-### My stack / skills
-[![My Skills](https://skillicons.dev/icons?i=bash,cs,cpp,discord,dotnet,flask,git,github,html,linux,md,obsidian,py,raspberrypi,unity,vscode,windows,wordpress)](https://skillicons.dev)
+### My skills
+[![My Skills](https://skillicons.dev/icons?i=cs,dotnet,fastapi,flask,git,github,linux,py,unity,windows)](https://skillicons.dev)
 
 
