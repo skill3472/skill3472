@@ -6,7 +6,7 @@ Updated on: 14:35:26 CEST Time
 ```
 <!-- PB END -->
 I'm an IT person, just overall. I like CTFs, hacking, coding games, making Python apps. Just a lot of stuff.
-You can check out my website [here](https://skill3472.github.io/).
+You can check out my website [here](https://cv.mtym.me/).
 
 ---
 ### My skills
